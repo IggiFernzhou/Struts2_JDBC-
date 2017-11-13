@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="Struts2_01" namespace="/" extends="struts-default">
+	
+		<action name="Login" class="com.Action.LoginAction">
+			<result name="success">/success.jsp</result>
+			<result name="fail">/index.jsp</result>
+		</action>
+		
+		<action name="Display" class="com.Action.DisplayAction">
+			<result name="success">/displayall.jsp</result>
+		</action>
+		
+		<action name="Select" class="com.Action.SelectByNameAction">
+			<result name="success">/displaybyname.jsp</result>
+		</action>
+		
+		<action name="Add" class="com.Action.AddAction">
+			<result name="success">/success.jsp</result>
+		</action>
+		
+		<action name="Delete" class="com.Action.DeleteAction">
+			<result name="success">/success.jsp</result>
+		</action>
+		
+		<action name="Update" class="com.Action.UpdateAction">
+			<result name="success">/success.jsp</result>
+		</action>
+		 
+	</package>
+</struts>
