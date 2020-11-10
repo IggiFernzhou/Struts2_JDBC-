@@ -1,0 +1,2 @@
+# Struts2_JDBC-
+使用struts2和jdbc整合做的一个简单的登陆程序并在jsp页面上执行增删改查功能
